@@ -6,10 +6,45 @@
   <title>Aditya Dange - Portfolio</title>
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    @media (max-width: 768px) {
+      nav .nav-links {
+        flex-direction: column;
+        gap: 0.8rem;
+        align-items: center;
+      }
+
+      .about-content {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .skills .skill {
+        text-align: center;
+      }
+
+      .project-grid,
+      .certificate-grid {
+        grid-template-columns: 1fr !important;
+      }
+
+      .hero h1 {
+        font-size: 2.2rem;
+      }
+
+      .hero p {
+        font-size: 1rem;
+      }
+
+      .avatar {
+        width: 150px;
+        height: 150px;
+      }
+    }
+  </style>
 </head>
 <body>
   <!-- Navigation Bar -->
- <!-- Navigation Bar -->
   <nav>
     <div class="container">
       <a href="#" class="logo">Aditya Dange</a>
@@ -33,10 +68,7 @@
     </div>
   </section>
 
-
   <!-- About Section -->
-  <!-- About Me Section -->
-  <!-- About Me Section -->
 <section id="about" class="about">
   <div class="container">
     <h2>About Me</h2>
@@ -70,6 +102,7 @@
     </a>
   </div>
 </section>
+
   <!-- Skills Section -->
   <section id="skills" class="skills">
     <div class="container">
@@ -148,7 +181,6 @@
   </section>
 
   <!-- Contact Section -->
-  <!-- Contact Me Section -->
     <section id="contact" class="contact">
       <div class="container">
         <h2>Contact Me</h2>
